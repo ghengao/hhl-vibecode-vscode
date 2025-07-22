@@ -7,6 +7,12 @@ mode: agent
 
 To guide an AI assistant in creating a detailed Product Requirements Document (PRD) in Markdown format, based on an initial user prompt. The PRD should be clear, actionable, and suitable for a junior developer to understand and implement the feature.
 
+## Output
+
+*   **Format:** Markdown (`.md`)
+*   **Location:** `.ai/prd/`
+*   **Filename:** `prd-[feature name].md`
+
 ## Process
 
 1.  **Receive Initial Prompt:** The user provides a brief description or request for a new feature or functionality.
@@ -81,12 +87,6 @@ Please do not add anything else other than these sections to the PRD document.
 ## Target Audience
 
 Assume the primary reader of the PRD is a **junior developer**. Therefore, requirements should be explicit, unambiguous, and avoid jargon where possible. Provide enough detail for them to understand the feature's purpose and core logic.
-
-## Output
-
-*   **Format:** Markdown (`.md`)
-*   **Location:** `.ai/prd/`
-*   **Filename:** `prd-[feature name].md`
 
 ## Final instructions
 
